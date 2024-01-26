@@ -1,8 +1,6 @@
 # How to Fork Hedera Testnet and Interact with Deployed Contracts on the Latest Block
 
-## Setup Foundry
-
-Using an existing Hedera node project with the JavaScript SDK, learn how to set up Foundry to be able to leverage [Forge](https://book.getfoundry.sh/forge/), their command-line tool, to run your smart contract tests written in Solidity. 
+Foundry's forking mode lets you interact with contracts and run tests as if on a real network. Learn how to fork Hedera Testnet on the latest block and test your contracts with the latest state of the network.
 
 ## What you will accomplish
 
