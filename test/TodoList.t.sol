@@ -6,7 +6,6 @@ import "src/TodoList.sol";
 
 contract TodoListTest is Test {
     // Step (1) - target the deployed contract by using the evm address
-    /* ... */
     TodoList public todoList =
         TodoList("Deployed_Contract_EVM_Address");
 
