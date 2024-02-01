@@ -3,9 +3,7 @@ src = 'src'
 out = 'out'
 libs = ['lib']
 
-# Step 5
 gas_reports = ["TodoList"]
-# /*...*/
 
 [rpc_endpoints]
 h_testnet = "https://testnet.hashio.io/api"
