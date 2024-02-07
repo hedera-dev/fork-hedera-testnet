@@ -4,6 +4,8 @@ out = 'out'
 libs = ['lib']
 
 gas_reports = ["TodoList"]
+solc_version = '0.8.23'
+evm_version = 'shanghai'
 
 [rpc_endpoints]
 h_testnet = "https://testnet.hashio.io/api"
