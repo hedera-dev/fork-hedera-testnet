@@ -8,6 +8,16 @@ contract TodoListTest is Test {
     // Step (1) - target the deployed contract by using the evm address
     /* ... */
 
-    // Step (2) - Testing CreateTodo()
-    /* ... */
+    function test_createTodo_returnsNumberOfTodosIncrementedByOne() public {
+        // get the current number of todos
+        uint256 numberOfTodos = todoList.getNumberOfTodos();
+
+        // create a new todo and save the number of todos
+        uint256 todoCountAfterCreate = todoList.createTodo(
+            "A new todo for you!"
+        );
+
+        // Step (2) - Assert number of todos increases by one after calling createTodo()
+        /* ... */
+    }
 }
