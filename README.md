@@ -28,10 +28,13 @@ Have the following set up on your computer:
     - Minimum version of npm: 9.5
     - Recommended for Linux & Mac: [nvm](https://github.com/nvm-sh/nvm)
     - Recommended for Windows: [nvm-windows](https://github.com/coreybutler/nvm-windows)
+- Foundry forge and cast installed
+    - `forge` Minimum version: 0.2.0
+    - `cast` Minimum version: 0.2.0
 
 ---
 
 ## Get started
 
-The repo, github.com/hedera-dev/fork-hedera-testnet, is intended to be used alongside this [tutorial](docs.hedera.com).
+The repo, github.com/hedera-dev/fork-hedera-testnet, is intended to be used alongside this [tutorial](https://docs.hedera.com/hedera/tutorials/smart-contracts/foundry/fork-hedera-testnet-on-latest-block).
 
